@@ -25,7 +25,7 @@ async def process_start_command(message: types.Message):
 async def process_help_command(message: types.Message):
     await message.reply("Напиши мне что-нибудь, и я отпрпавлю этот текст тебе в ответ!")
 
-@dp.message_handler(message=['0676175944','0966545301'])
+@dp.message_handler(message=['06761xxxxx','09665xxxxx'])
 async def process_message(message: types.Message):
     await message.reply("2 Ваш телефон внесен в базу номеров АСК ворот!")
 
